@@ -1,10 +1,29 @@
 .container{
-    background: url(world-map.jpeg) no-repeat center center/cover; 
+    background: url(world-map2.jpeg) no-repeat center center/cover; 
     display: flex;
-    align-self:center;
+    flex-direction: column;
     align-content:center;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
     min-height: 100vh;
-    padding-top: auto;
+    padding-top: 20px;
+}
+
+.card {
+    background-color: #d4d7db;
+    color: black;
+    width: 500px;
+    height: 80vh;
+    border: 3px solid #22519b;
+    box-shadow: 10px 10px 10px #420842;
+    padding: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto; /* Ensure the card is centered */
 }
 .card{
     background-color: #4d798b;
@@ -23,7 +42,7 @@
 }
 .flag_image{
     background-color: bisque;
-    background: url(world-map.jpeg);
+    background: url(world-map2.jpeg) no-repeat center center/cover;
     width: 80%;
     height: 200px;
     border: #420842;
