@@ -1,5 +1,5 @@
 .container{
-    background-color: #4422dd;
+    background: url(world-map.jpeg) no-repeat center center/cover; 
     display: flex;
     align-self:center;
     align-content:center;
@@ -7,11 +7,11 @@
     padding-top: auto;
 }
 .card{
-    background-color: #4d8b67;
+    background-color: #4d798b;
     color: black;
     width: 500px;
     height: 80vh;
-    border: #dd22dd;
+    border: 3px solid #22539b ;
     box-shadow: 10px 10px 10px #420842;
     padding: 30px;
     margin-top: 60px;
@@ -23,6 +23,7 @@
 }
 .flag_image{
     background-color: bisque;
+    background: url(world-map.jpeg);
     width: 80%;
     height: 200px;
     border: #420842;
