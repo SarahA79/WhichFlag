@@ -43,10 +43,11 @@
 }
 .flag_image{
     background-color: bisque;
-    background: url(world-map2.jpeg) no-repeat center center/cover;
-    width: 80%;
+    background: url(gb-flag.png) no-repeat center center/cover;
+    width: 75%;
     height: 200px;
-    border: #420842;
+    padding:none;
+    border: 1px solid #420842;
     box-shadow: 6px 6px 5px #420842;
 }
 .quest{
