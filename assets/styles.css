@@ -1,0 +1,40 @@
+.container{
+    background-color: #4422dd;
+    display: flex;
+    align-self:center;
+    align-content:center;
+    min-height: 100vh;
+    padding-top: auto;
+}
+.card{
+    background-color: #4d8b67;
+    color: black;
+    width: 500px;
+    height: 80vh;
+    border: #dd22dd;
+    box-shadow: 10px 10px 10px #420842;
+    padding: 30px;
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flag_image{
+    background-color: bisque;
+    width: 80%;
+    height: 200px;
+    border: #420842;
+    box-shadow: 6px 6px 5px #420842;
+}
+.quest{
+    height: 3rem;
+    border: #420842;
+    border-radius: 5px;
+}
+.select-ans{
+    height:8rem;
+    border: #420842;
+    border-radius:5px;
+}
